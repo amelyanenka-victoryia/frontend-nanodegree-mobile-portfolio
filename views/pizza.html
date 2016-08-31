@@ -31,7 +31,7 @@ function updatePositions(){frame++;window.performance.mark("mark_start_frame");f
 document.addEventListener("DOMContentLoaded",function(){for(var a=0;200>a;a++){var b=document.createElement("img");b.className="mover";b.src="images/pizza.png";b.style.height="100px";b.style.width="73.333px";b.basicLeft=a%8*256;b.style.top=256*Math.floor(a/8)+"px";document.querySelector("#movingPizzas1").appendChild(b)}updatePositions()});
 </script>
 </head>
-<!-- <body>  
+<body>  
   <div class="container">
     <div id="header" class="row">
       <div class="col-md-6">
@@ -158,6 +158,6 @@ document.addEventListener("DOMContentLoaded",function(){for(var a=0;200>a;a++){v
     </div>
     <div id="footer" class="col-md-12">Thanks for visiting! &copy; 2014 Udacity</div>
   </div> 
-</body> -->
+</body>
 </html>
 
