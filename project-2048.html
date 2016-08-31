@@ -9,6 +9,13 @@
     </style>     
     <script type="text/javascript">function logCRP(){var a=window.performance.timing,b=a.domContentLoadedEventStart-a.domLoading,a=a.domComplete-a.domLoading;document.getElementById("crp-stats").textContent="DCL: "+b+"ms, onload: "+a+"ms"}window.addEventListener("load",function(a){logCRP()});
     </script>   
+    <script>
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+    </script>
+    <script src="//www.google-analytics.com/analytics.js"></script>
     <title>Cameron Pittman: Portfolio</title>  
   </head>
   <body>
@@ -27,13 +34,6 @@
     </div>
     <footer>
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
-    </footer>
-    <script>
-      (function(w,g){w['GoogleAnalyticsObject']=g;
-      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
-      ga('create', 'UA-XXXX-Y');
-      ga('send', 'pageview');
-    </script>
-    <script src="//www.google-analytics.com/analytics.js"></script>
+    </footer>    
   </body>
 </html>
